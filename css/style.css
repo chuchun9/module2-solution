@@ -1,0 +1,68 @@
+* {
+	font-size: 15pt;
+	margin: 0;
+	padding: 0;
+	font-weight: initial;
+	box-sizing: border-box;
+}
+
+#main {
+	font-size: 40pt;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+div {
+	padding: 20px;
+}
+
+
+h5 {
+	text-align: center;
+	width: 100px;
+	float: right;
+
+}
+
+.Chicken {
+	background-color: pink;
+}
+
+.Beef {
+	background-color: red;
+}
+
+.Sushi {
+	background-color: yellow;
+}
+
+div p {
+	margin: 30px;
+	clear: right;
+}
+
+div section {
+	background-color: grey;
+	border: 2px solid black;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33%;
+	}	
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+		clear: left;
+	}
+}
